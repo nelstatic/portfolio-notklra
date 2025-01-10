@@ -1,7 +1,7 @@
 import React from "react";
 import Exhibitionsdatas from "@/data/exhibitionsdata.json";
-import CardInfo from "@components/card/card-info/CardInfo";
-import CardGallery from "@components/card/card-gallery/CardGallery";
+import CardInfo from "@components/card/CardInfo";
+import CardGallery from "@components/card/CardGallery";
 const Exhibitions = () => {
   return (
     <section>
