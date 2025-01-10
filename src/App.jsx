@@ -1,12 +1,11 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import "./App.css";
 
 //components
 import Header from "@components/Header.jsx";
 import Footer from "@components/Footer.jsx";
 import ScrollTop from "@components/ScrollTop";
 // pages
-import Home from "@pages/home/Home.jsx";
+import Home from "@pages/Home.jsx";
 import FullMedium from "@pages/FullMedium.jsx";
 import Places from "@pages/Places.jsx";
 import Commissions from "@pages/Commissions.jsx";
