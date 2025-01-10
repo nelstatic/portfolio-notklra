@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Remplac’Mob, Pop-Up/ Exhibition",
+    "description": "Three Art Gallery, Paris FR",
+    "year": 2023,
+    "row": true,
+    "media": [
+      {
+        "type": "image",
+        "filename": "red.png",
+        "path": "/assets/photos/blue.png"
+      },
+      {
+        "type": "image",
+        "filename": "red.png",
+        "path": "/assets/photos/blue.png"
+      },
+      {
+        "type": "image",
+        "filename": "red.png",
+        "path": "/assets/photos/green.png"
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card-gallery .row {
+  @apply flex justify-between gap-[10px];
+}
+
+.card-gallery .card-gallery-image {
+  @apply pb-[10px] cursor-pointer;
+}
+
+.popup-overlay {
+  @apply fixed top-0 left-0 w-full h-full bg-black bg-opacity-0 flex items-center justify-center z-50 opacity-0 transition-all duration-300 ease-in-out pointer-events-none;
+}
+
+.popup-overlay.open {
+  @apply bg-opacity-80 opacity-100 pointer-events-auto;
+}
+
+.popup-content {
+  @apply relative opacity-0 transition-opacity duration-200 ease-in-out;
+}
+
+.popup-content.open {
+  @apply opacity-100;
+}
+
+.prev-button,
+.next-button {
+  @apply absolute top-1/2 -translate-y-1/2 bg-transparent border-none text-white text-[40px] cursor-pointer;
+}
+
+.prev-button {
+  @apply left-[-10%] pr-3;
+}
+
+.next-button {
+  @apply right-[-10%] pl-3;
+}

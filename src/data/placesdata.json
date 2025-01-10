@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "title": "London",
+    "description": "Analog, Full Frame, 26x36",
+    "year": 2024,
+    "row": false,
+    "media": [
+      {
+        "type": "image",
+        "filename": "red.png",
+        "path": "/assets/photos/red.png"
+      },
+      {
+        "type": "image",
+        "filename": "red.png",
+        "path": "/assets/photos/purple.png"
+      },
+      {
+        "type": "image",
+        "filename": "red.png",
+        "path": "/assets/photos/red.png"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Rio de Janeiro",
+    "description": "Analog, Full Frame, 26x36",
+    "year": 2023,
+    "row": false,
+    "media": [
+      {
+        "type": "image",
+        "filename": "red.png",
+        "path": "/assets/photos/red.png"
+      },
+      {
+        "type": "image",
+        "filename": "red.png",
+        "path": "/assets/photos/purple.png"
+      },
+      {
+        "type": "image",
+        "filename": "red.png",
+        "path": "/assets/photos/red.png"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Geneva",
+    "description": "Analog, Full Frame, 26x36",
+    "year": 2022,
+    "row": false,
+    "media": [
+      {
+        "type": "image",
+        "filename": "red.png",
+        "path": "/assets/photos/red.png"
+      },
+      {
+        "type": "image",
+        "filename": "red.png",
+        "path": "/assets/photos/purple.png"
+      },
+      {
+        "type": "image",
+        "filename": "red.png",
+        "path": "/assets/photos/red.png"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Lisbon",
+    "description": "Analog, Full Frame, 26x36",
+    "year": 2022,
+    "row": false,
+    "media": [
+      {
+        "type": "image",
+        "filename": "red.png",
+        "path": "/assets/photos/red.png"
+      },
+      {
+        "type": "image",
+        "filename": "red.png",
+        "path": "/assets/photos/purple.png"
+      },
+      {
+        "type": "image",
+        "filename": "red.png",
+        "path": "/assets/photos/red.png"
+      }
+    ]
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "title": "Leather Park, Flyer “Bus Show”",
+    "description": "Designed by me.",
+    "year": 2024,
+    "row": false,
+    "media": [
+      {
+        "type": "image",
+        "filename": "red.png",
+        "path": "/assets/photos/blue.png"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "BabyParty x Antagonists",
+    "description": "Designed by me.",
+    "year": 2024,
+    "row": false,
+    "media": [
+      {
+        "type": "image",
+        "filename": "red.png",
+        "path": "/assets/photos/purple.png"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Remplac’Mob, Pop-Up/ Exhibition",
+    "description": "Designed by me.",
+    "year": 2023,
+    "row": false,
+    "media": [
+      {
+        "type": "image",
+        "filename": "red.png",
+        "path": "/assets/photos/green.png"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "omg, Teaser",
+    "description": "Directed by me.",
+    "year": 2024,
+    "row": false,
+    "media": [
+      {
+        "type": "image",
+        "filename": "red.png",
+        "path": "/assets/photos/red.png"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Choose ur KLRA",
+    "description": "Designed by me.",
+    "year": 2023,
+    "row": false,
+    "media": [
+      {
+        "type": "image",
+        "filename": "red.png",
+        "path": "/assets/photos/red.png"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Choose ur KLRA",
+    "description": "Designed by me.",
+    "year": 2022,
+    "row": false,
+    "media": [
+      {
+        "type": "image",
+        "filename": "red.png",
+        "path": "/assets/photos/red.png"
+      }
+    ]
+  }
+]

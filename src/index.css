@@ -1,0 +1,67 @@
+@import url("@components/card/card-gallery/CardGallery.css");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  @apply text-[white];
+  font-family: Manrope, serif;
+  background: #b8b8b8;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  @apply m-0 p-0;
+  outline: 1px solid green;
+}
+
+::-webkit-scrollbar {
+  @apply w-0;
+}
+
+html,
+body {
+  @apply h-full max-w-screen-xl;
+}
+
+a {
+  @apply no-underline text-[white];
+}
+
+section {
+  @apply mx-0 my-10 pt-10;
+}
+
+h1 {
+  @apply w-3/5 font-normal text-[35px] tracking-[1px] mx-10 my-0 px-0 py-2.5 border-b-2 border-b-[white] border-solid;
+}
+
+h2 {
+  @apply font-extralight text-[33px];
+}
+
+header li {
+  @apply text-white text-[21px] font-light my-2 border-b border-white py-2 tracking-wide;
+}
+
+.card {
+  @apply pb-8;
+}
+.content {
+  @apply px-0 py-[50px];
+}
+.presentation {
+  @apply text-[33px] pt-[15px] pb-[30px] px-10;
+}
+
+.presentation h2 {
+  @apply font-normal text-right tracking-[1px] w-[64%];
+}
+.presentation p {
+  @apply tracking-[1px] w-[73%] pt-[50px];
+}

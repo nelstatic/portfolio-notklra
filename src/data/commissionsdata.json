@@ -1,0 +1,150 @@
+[
+  {
+    "id": 1,
+    "title": "Atelier Chardon Savard + Carhartt",
+    "description": "Analog, Medium Format, 6x4.5",
+    "year": 2024,
+    "row": false,
+    "media": [
+      {
+        "type": "image",
+        "filename": "red.png",
+        "path": "/assets/photos/red.png"
+      },
+      {
+        "type": "image",
+        "filename": "red.png",
+        "path": "/assets/photos/purple.png"
+      },
+      {
+        "type": "image",
+        "filename": "red.png",
+        "path": "/assets/photos/red.png"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Never Alone Again",
+    "description": "Analog, Full Frame, 24x36",
+    "year": 2024,
+    "row": false,
+    "media": [
+      {
+        "type": "image",
+        "filename": "red.png",
+        "path": "/assets/photos/red.png"
+      },
+      {
+        "type": "image",
+        "filename": "red.png",
+        "path": "/assets/photos/purple.png"
+      },
+      {
+        "type": "image",
+        "filename": "red.png",
+        "path": "/assets/photos/red.png"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Nigerian Boyfriend, Ziqin",
+    "description": "Digital, Full Frame, 10x15",
+    "year": 2024,
+    "row": false,
+    "media": [
+      {
+        "type": "image",
+        "filename": "red.png",
+        "path": "/assets/photos/red.png"
+      },
+      {
+        "type": "image",
+        "filename": "red.png",
+        "path": "/assets/photos/purple.png"
+      },
+      {
+        "type": "image",
+        "filename": "red.png",
+        "path": "/assets/photos/red.png"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Nigerian Boyfriend, Nadia",
+    "description": "Digital, Full Frame, 10x15",
+    "year": 2024,
+    "row": false,
+    "media": [
+      {
+        "type": "image",
+        "filename": "red.png",
+        "path": "/assets/photos/red.png"
+      },
+      {
+        "type": "image",
+        "filename": "red.png",
+        "path": "/assets/photos/purple.png"
+      },
+      {
+        "type": "image",
+        "filename": "red.png",
+        "path": "/assets/photos/red.png"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Nigerian Boyfriend, Nadia",
+    "description": "Digital, Full Frame, 10x15",
+    "year": 2024,
+    "row": false,
+    "media": [
+      {
+        "type": "image",
+        "filename": "red.png",
+        "path": "/assets/photos/red.png"
+      },
+      {
+        "type": "image",
+        "filename": "red.png",
+        "path": "/assets/photos/purple.png"
+      },
+      {
+        "type": "image",
+        "filename": "red.png",
+        "path": "/assets/photos/red.png"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Leather Park, Crown Bounce (Real Groovers RMX)",
+    "description": "Directed by me.",
+    "year": 2024,
+    "row": false,
+    "media": [
+      {
+        "type": "image",
+        "filename": "red.png",
+        "path": "/assets/photos/red.png"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "THE DELIVERY",
+    "description": "Directed by me.",
+    "year": 2024,
+    "row": false,
+    "media": [
+      {
+        "type": "image",
+        "filename": "red.png",
+        "path": "/assets/photos/red.png"
+      }
+    ]
+  }
+]

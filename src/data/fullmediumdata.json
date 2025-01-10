@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "title": "Rayann",
+    "description": "Analog, Full Frame, 24x36",
+    "year": 2023,
+    "row": true,
+    "media": [
+      {
+        "type": "image",
+        "filename": "blue.png",
+        "path": "/assets/photos/blue.png"
+      },
+      {
+        "type": "image",
+        "filename": "blue.png",
+        "path": "/assets/photos/green.png"
+      },
+      {
+        "type": "image",
+        "filename": "blue.png",
+        "path": "/assets/photos/blue.png"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Lany",
+    "description": "Analog, Full Frame, 24x36",
+    "year": 2023,
+    "row": true,
+    "media": [
+      {
+        "type": "image",
+        "filename": "red.png",
+        "path": "/assets/photos/green.png"
+      },
+      {
+        "type": "image",
+        "filename": "red.png",
+        "path": "/assets/photos/blue.png"
+      },
+      {
+        "type": "image",
+        "filename": "red.png",
+        "path": "/assets/photos/green.png"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Connexão, Lany",
+    "description": "Digital, Full Frame, 10x15",
+    "year": 2024,
+    "row": false,
+    "media": [
+      {
+        "type": "image",
+        "filename": "red.png",
+        "path": "/assets/photos/red.png"
+      },
+      {
+        "type": "image",
+        "filename": "red.png",
+        "path": "/assets/photos/purple.png"
+      },
+      {
+        "type": "image",
+        "filename": "red.png",
+        "path": "/assets/photos/red.png"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Connexão, Alyssa",
+    "description": "Analog, Medium Format, 6x4.5",
+    "year": 2024,
+    "row": false,
+    "media": [
+      {
+        "type": "image",
+        "filename": "red.png",
+        "path": "/assets/photos/red.png"
+      },
+      {
+        "type": "image",
+        "filename": "red.png",
+        "path": "/assets/photos/purple.png"
+      },
+      {
+        "type": "image",
+        "filename": "red.png",
+        "path": "/assets/photos/red.png"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Tonoia",
+    "description": "Analog, Medium Format, 6x4.5",
+    "year": 2024,
+    "row": false,
+    "media": [
+      {
+        "type": "image",
+        "filename": "red.png",
+        "path": "/assets/photos/red.png"
+      },
+      {
+        "type": "image",
+        "filename": "red.png",
+        "path": "/assets/photos/purple.png"
+      },
+      {
+        "type": "image",
+        "filename": "red.png",
+        "path": "/assets/photos/red.png"
+      }
+    ]
+  }
+]
