@@ -1,7 +1,7 @@
 import React from "react";
 import Placesdatas from "@/data/placesdata.json";
-import CardInfo from "@components/card/card-info/CardInfo";
-import CardGallery from "@components/card/card-gallery/CardGallery";
+import CardInfo from "@components/card/CardInfo";
+import CardGallery from "@components/card/CardGallery";
 
 const Places = () => {
   return (

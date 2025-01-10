@@ -2,18 +2,18 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 
 //components
-import Header from "@components/header/Header.jsx";
-import Footer from "@components/footer/Footer.jsx";
-import ScrollTop from "@components/scrolltop/ScrollTop";
+import Header from "@components/Header.jsx";
+import Footer from "@components/Footer.jsx";
+import ScrollTop from "@components/ScrollTop";
 // pages
 import Home from "@pages/home/Home.jsx";
-import FullMedium from "@pages/fullmedium/FullMedium.jsx";
-import Places from "@pages/places/Places.jsx";
-import Commissions from "@pages/commissions/Commissions.jsx";
-import Exhibitions from "@pages/exhibitions/Exhibitions.jsx";
-import Music from "@pages/music/Music.jsx";
-import Archives from "@pages/archives/Archives.jsx";
-import Contact from "@pages/contact/Contact.jsx";
+import FullMedium from "@pages/FullMedium.jsx";
+import Places from "@pages/Places.jsx";
+import Commissions from "@pages/Commissions.jsx";
+import Exhibitions from "@pages/Exhibitions.jsx";
+import Music from "@pages/Music.jsx";
+import Archives from "@pages/Archives.jsx";
+import Contact from "@pages/Contact.jsx";
 import ErrorPage from "@pages/error-page/ErrorPage.jsx";
 
 function App() {
