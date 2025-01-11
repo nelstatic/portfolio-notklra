@@ -3,6 +3,8 @@ import { IoMdArrowDropleft } from "react-icons/io";
 import { IoMdArrowDropright } from "react-icons/io";
 
 const CardGallery = ({ media, row }) => {
+  const basePath = import.meta.env.VITE_APP_BASE_PATH || "/portfolio-notklra/"; //Pour les chemins images sur github pages
+
   const [isOpen, setIsOpen] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isContentVisible, setIsContentVisible] = useState(false);
@@ -43,7 +45,7 @@ const CardGallery = ({ media, row }) => {
         {media.map((item, index) => (
           <img
             key={index}
-            src={item.path}
+            src={`${basePath}${item.path}`}
             alt={item.filename}
             onClick={() => openPopup(index)}
             className="card-gallery-image"

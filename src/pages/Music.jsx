@@ -1,6 +1,8 @@
 import React from "react";
 
 const Music = () => {
+  const basePath = import.meta.env.VITE_APP_BASE_PATH || "/portfolio-notklra/";
+
   return (
     <section className="music">
       <h1 className="w-[51%]">Music</h1>
@@ -28,7 +30,7 @@ const Music = () => {
           They trusted me
         </h2>
         <div className="trusted-row1">
-          <img src="/assets/logos/rinse.png" alt="Logo rinse" />
+          <img src={`${basePath}assets/logos/rinse.png`} alt="Logo rinse" />
         </div>
         <div className="trusted-row2"></div>
       </article>
