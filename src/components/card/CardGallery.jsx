@@ -63,7 +63,7 @@ const CardGallery = ({ media, row }) => {
             onClick={(e) => e.stopPropagation()}
           >
             <img
-              src={media[currentIndex].path}
+              src={`${basePath}${media[currentIndex].path}`}
               alt={media[currentIndex].filename}
             />
             {media.length > 1 && (
