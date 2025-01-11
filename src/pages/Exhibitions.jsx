@@ -7,7 +7,7 @@ const Exhibitions = () => {
     <section>
       <h1>Exhibitions</h1>
       <article className="presentation">
-        <h2>Clara Thion Moreira</h2>
+        <h2 className="w-[64%]">Clara Thion Moreira</h2>
         <p>
           From North-East of Paris, Clara Thion Moreira is a multidisciplinary
           artist primarly working with film photography.

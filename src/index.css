@@ -17,7 +17,7 @@
 
 * {
   @apply m-0 p-0;
-  outline: 1px solid green;
+  /* outline: 1px solid green; */
 }
 
 ::-webkit-scrollbar {
@@ -60,7 +60,7 @@ header li {
 }
 
 .presentation h2 {
-  @apply font-normal text-right tracking-[1px] w-[64%];
+  @apply font-normal text-right tracking-[1px];
 }
 .presentation p {
   @apply tracking-[1px] w-[73%] pt-[50px];
