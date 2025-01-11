@@ -5,6 +5,8 @@
   "type": "module",
   "homepage": "https://nelstatic.github.io/portfolio-notklra",
   "scripts": {
+    "start": "vite",
+    "build": "vite build",
     "dev": "vite",
     "lint": "eslint .",
     "preview": "vite preview",
