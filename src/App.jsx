@@ -17,7 +17,7 @@ import ErrorPage from "@pages/error-page/ErrorPage.jsx";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/portfolio-notklra/">
       <Header />
       <main>
         <Routes>
