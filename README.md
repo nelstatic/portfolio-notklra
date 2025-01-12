@@ -17,7 +17,7 @@ Afin de gérer correctement les ressources statiques (comme les images) et garan
 
 1. Variable d'environnement pour la base URL :
 
-   - J'ai configuré une variable d'environnement `VITE_APP_BASE_PATH` dans le fichier `.env` pour définir le chemin de base du répertoire où le site sera hébergé (par exemple, `/portfolio-kl/` pour un sous-répertoire GitHub Pages).
+   - J'ai configuré une variable d'environnement `VITE_APP_BASE_PATH` dans le fichier `.env` pour définir le chemin de base du répertoire où le site sera hébergé (par exemple, `/portfolio-notklra/` pour un sous-répertoire GitHub Pages).
    - Cette variable permet de gérer dynamiquement le préfixe des chemins des ressources, en particulier les images, pour qu'elles soient correctement résolues, que ce soit en développement local ou après déploiement.
 
 2. Utilisation de `basePath` dans le code :
@@ -28,7 +28,7 @@ Afin de gérer correctement les ressources statiques (comme les images) et garan
    Exemple :
 
    ```jsx
-   const basePath = import.meta.env.VITE_APP_BASE_PATH || "/portfolio-kl/";
+   const basePath = import.meta.env.VITE_APP_BASE_PATH || "/portfolio-notklra/";
    <img src={`${basePath}assets/logos/instagram.png`} alt="Instagram" />;
    ```
 
@@ -42,8 +42,11 @@ Afin de gérer correctement les ressources statiques (comme les images) et garan
    - Vous devez définir la variable `VITE_APP_BASE_PATH` dans le fichier `.env` à la racine du projet :
 
    ```bash
-   VITE_APP_BASE_PATH="/portfolio-kl/"
+   VITE_APP_BASE_PATH="/portfolio-notklra/"
    ```
+
+   // Dans BrowserRouter, ajouter basename={import.meta.env.production.VITE_APP_BASE_PATH}
+   // Variable d'env dans Vite pour définir une base URL pour l'ensemble des routes de l'application
 
 5. Mise à jour des composants :
    - Toutes les ressources statiques, y compris celles dans les composants comme les galeries d'images, sont mises à jour pour utiliser cette variable d'environnement. Cela garantit que les chemins des images sont dynamiques et adaptés à l'environnement de déploiement.
