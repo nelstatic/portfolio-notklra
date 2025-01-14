@@ -1,5 +1,5 @@
 function Footer() {
-  const basePath = import.meta.env.VITE_APP_BASE_PATH || "/portfolio-notklra/";
+  /* const basePath = import.meta.env.VITE_APP_BASE_PATH || "/portfolio-notklra/"; */
   return (
     <footer className="bg-[#d9d9d9] py-[25px] px-[25px] pb-[55px] text-black">
       <div className="flex justify-between items-center py-[40px] pr-[20px]">
@@ -14,28 +14,32 @@ function Footer() {
           <a href="#" className="text-black text-[26px] font-semibold">
             <img
               className="w-[30px] object-cover py-[4px] "
-              src={`${basePath}assets/logos/tiktok.svg`}
+              /* src={`${basePath}assets/logos/tiktok.svg`} */
+              src="assets/logos/tiktok.svg"
               alt=""
             />
           </a>
           <a href="#" className="text-black text-[26px] font-semibold">
             <img
               className="w-[40px] object-cover"
-              src={`${basePath}assets/logos/soundcloud.svg`}
+              /* src={`${basePath}assets/logos/soundcloud.svg`} */
+              src="assets/logos/soundcloud.svg"
               alt=""
             />
           </a>
           <a href="#" className="text-black text-[26px] font-semibold">
             <img
               className="w-[30px] object-cover"
-              src={`${basePath}assets/logos/twitter.png`}
+              /* src={`${basePath}assets/logos/twitter.png`} */
+              src="assets/logos/twitter.png"
               alt=""
             />
           </a>
           <a href="#" className="text-black text-[26px] font-semibold">
             <img
               className="w-[30px] object-cover"
-              src={`${basePath}assets/logos/instagram.png`}
+              /* src={`${basePath}assets/logos/instagram.png`} */
+              src="assets/logos/instagram.png"
               alt=""
             />
           </a>

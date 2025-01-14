@@ -39,7 +39,7 @@ function Header() {
           onClick={toggleNavbar}
         >
           <div
-            className="text-right w-[30%]"
+            className="text-right w-[30%] pr-[50PX] pt-[25PX]"
             onClick={(e) => e.stopPropagation()}
           >
             <ul className="list-none">

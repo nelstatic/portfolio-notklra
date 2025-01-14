@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { IoChevronUpSharp } from "react-icons/io5";
+import { SlArrowUp } from "react-icons/sl";
 
 const ScrollTop = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -31,7 +31,7 @@ const ScrollTop = () => {
       }`}
       onClick={scrollToTop}
     >
-      <IoChevronUpSharp />
+      <SlArrowUp size="3rem" />
     </div>
   );
 };

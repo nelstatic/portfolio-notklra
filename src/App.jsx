@@ -17,7 +17,8 @@ import ErrorPage from "@pages/error-page/ErrorPage.jsx";
 
 function App() {
   return (
-    <BrowserRouter basename={import.meta.env.production.VITE_APP_BASE_PATH}>
+    <BrowserRouter /* basename={import.meta.env.production.VITE_APP_BASE_PATH} */
+    >
       <Header />
       <main>
         <Routes>

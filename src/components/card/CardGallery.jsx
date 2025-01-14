@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import { IoMdArrowDropleft } from "react-icons/io";
-import { IoMdArrowDropright } from "react-icons/io";
+import { SlArrowLeft } from "react-icons/sl";
+import { SlArrowRight } from "react-icons/sl";
 
 const CardGallery = ({ media, row }) => {
-  const basePath = import.meta.env.VITE_APP_BASE_PATH || "/portfolio-notklra/"; //Pour les chemins images sur github pages
+  /* const basePath = import.meta.env.VITE_APP_BASE_PATH || "/portfolio-notklra/"; */ //Pour les chemins images sur github pages
 
   const [isOpen, setIsOpen] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -45,7 +45,8 @@ const CardGallery = ({ media, row }) => {
         {media.map((item, index) => (
           <img
             key={index}
-            src={`${basePath}${item.path}`}
+            /* src={`${basePath}${item.path}`} */
+            src={item.path}
             alt={item.filename}
             onClick={() => openPopup(index)}
             className="card-gallery-image"
@@ -63,16 +64,17 @@ const CardGallery = ({ media, row }) => {
             onClick={(e) => e.stopPropagation()}
           >
             <img
-              src={`${basePath}${media[currentIndex].path}`}
+              /* src={`${basePath}${media[currentIndex].path}`} */
+              src={media[currentIndex].path}
               alt={media[currentIndex].filename}
             />
             {media.length > 1 && (
               <>
                 <span className="prev-button" onClick={prevImage}>
-                  <IoMdArrowDropleft />
+                  <SlArrowLeft size="2rem" />
                 </span>
                 <span className="next-button" onClick={nextImage}>
-                  <IoMdArrowDropright />
+                  <SlArrowRight size="2rem" />
                 </span>
               </>
             )}
