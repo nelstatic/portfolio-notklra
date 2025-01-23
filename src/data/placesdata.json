@@ -5,21 +5,27 @@
     "description": "Analog, Full Frame, 26x36",
     "year": 2024,
     "row": false,
+    "full":true,
     "media": [
       {
         "type": "image",
-        "filename": "red.png",
-        "path": "/assets/photos/red.png"
+        "filename": "1London1.png",
+        "path": "/assets/places/1London/thumbnail_IMG_0190.webp"
       },
       {
         "type": "image",
-        "filename": "red.png",
-        "path": "/assets/photos/purple.png"
+        "filename": "1London2.png",
+        "path": "/assets/places/1London/thumbnail_IMG_0186.webp"
       },
       {
         "type": "image",
-        "filename": "red.png",
-        "path": "/assets/photos/red.png"
+        "filename": "1London3.png",
+        "path": "/assets/places/1London/thumbnail_IMG_0191.webp"
+      },
+      {
+        "type": "image",
+        "filename": "1London4.png",
+        "path": "/assets/places/1London/thumbnail_IMG_0187.webp"
       }
     ]
   },
@@ -32,18 +38,23 @@
     "media": [
       {
         "type": "image",
-        "filename": "red.png",
-        "path": "/assets/photos/red.png"
+        "filename": "2RiodeJaneiro1.webp",
+        "path": "/assets/places/2RiodeJaneiro/IMG_3615.webp"
       },
       {
         "type": "image",
-        "filename": "red.png",
-        "path": "/assets/photos/purple.png"
+        "filename": "2RiodeJaneiro2.webp",
+        "path": "/assets/places/2RiodeJaneiro/thumbnail_IMG_3613.webp"
       },
       {
         "type": "image",
-        "filename": "red.png",
-        "path": "/assets/photos/red.png"
+        "filename": "2RiodeJaneiro3.webp",
+        "path": "/assets/places/2RiodeJaneiro/IMG_3586.webp"
+      },
+      {
+        "type": "image",
+        "filename": "2RiodeJaneiro4.webp",
+        "path": "/assets/places/2RiodeJaneiro/thumbnail_IMG_3577.webp"
       }
     ]
   },
@@ -56,18 +67,23 @@
     "media": [
       {
         "type": "image",
-        "filename": "red.png",
-        "path": "/assets/photos/red.png"
+        "filename": "3Geneva1.webp",
+        "path": "/assets/places/3Geneva/thumbnail_IMG_1254.webp"
       },
       {
         "type": "image",
-        "filename": "red.png",
-        "path": "/assets/photos/purple.png"
+        "filename": "3Geneva2.webp",
+        "path": "/assets/places/3Geneva/thumbnail_IMG_1259.webp"
       },
       {
         "type": "image",
-        "filename": "red.png",
-        "path": "/assets/photos/red.png"
+        "filename": "3Geneva3.webp",
+        "path": "/assets/places/3Geneva/thumbnail_IMG_1246.webp"
+      },
+      {
+        "type": "image",
+        "filename": "3Geneva4.webp",
+        "path": "/assets/places/3Geneva/thumbnail_E6E8011A-FF09-4C3B-AB8A-2A0F364511C9.webp"
       }
     ]
   },
@@ -80,18 +96,23 @@
     "media": [
       {
         "type": "image",
-        "filename": "red.png",
-        "path": "/assets/photos/red.png"
+        "filename": "4Lisbon1.webp",
+        "path": "/assets/places/4Lisbon/IMG_6767.webp"
       },
       {
         "type": "image",
-        "filename": "red.png",
-        "path": "/assets/photos/purple.png"
+        "filename": "4Lisbon2.webp",
+        "path": "/assets/places/4Lisbon/IMG_6914.webp"
       },
       {
         "type": "image",
-        "filename": "red.png",
-        "path": "/assets/photos/red.png"
+        "filename": "4Lisbon3.webp",
+        "path": "/assets/places/4Lisbon/IMG_6917.webp"
+      },
+      {
+        "type": "image",
+        "filename": "4Lisbon4.webp",
+        "path": "/assets/places/4Lisbon/Photo08_82.webp"
       }
     ]
   }

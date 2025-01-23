@@ -6,7 +6,15 @@ import CardGallery from "@components/card/CardGallery";
 const Archives = () => {
   return (
     <section>
-      <h1>Archives</h1>
+      <div className="headband">
+        <img
+          src="/assets/archives/headband_archives.webp"
+          alt="Headband"
+          className="w-full h-auto"
+        />
+      </div>
+
+      <h1 className="pt-[80px]">Archives</h1>
       <div className="content">
         {Archivesdatas.map((Archivesdata, index) => (
           <article className="card" key={index}>

@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "@components/Header.jsx";
 import Footer from "@components/Footer.jsx";
 import ScrollTop from "@components/ScrollTop";
+
 // pages
 import Home from "@pages/Home.jsx";
 import FullMedium from "@pages/FullMedium.jsx";
@@ -13,7 +14,7 @@ import Exhibitions from "@pages/Exhibitions.jsx";
 import Music from "@pages/Music.jsx";
 import Archives from "@pages/Archives.jsx";
 import Contact from "@pages/Contact.jsx";
-import ErrorPage from "@pages/error-page/ErrorPage.jsx";
+import ErrorPage from "@pages/ErrorPage.jsx";
 
 function App() {
   return (

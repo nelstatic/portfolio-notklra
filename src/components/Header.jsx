@@ -23,7 +23,7 @@ function Header() {
   return (
     <header className="header">
       <nav className="fixed top-0 right-0 w-0 bg-transparent flex justify-end pt-4 z-[1001]">
-        <div className="px-5 cursor-pointer z-[1001]">
+        <div className="px-5 z-[1001] mt-[30px]">
           <Hamburger
             size={29}
             distance="lg"
@@ -39,7 +39,7 @@ function Header() {
           onClick={toggleNavbar}
         >
           <div
-            className="text-right w-[30%] pr-[50PX] pt-[25PX]"
+            className="text-right w-[65%] md:w-[30%] pr-[0PX] md:pr-[50PX] pt-[25PX]"
             onClick={(e) => e.stopPropagation()}
           >
             <ul className="list-none">

@@ -2,12 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-.card-gallery .row {
+.row {
   @apply flex justify-between gap-[10px];
+  width: 100%;
 }
 
-.card-gallery .card-gallery-image {
+.card-gallery .item-image {
+  @apply w-[95%];
+}
+.card-gallery .item-image-full {
+  @apply w-full;
+}
+
+/* .card-gallery .card-gallery-image {
   @apply pb-[10px] cursor-pointer;
+} */
+
+.card-gallery-image {
+  @apply pb-[10PX] md:pb-[20PX];
 }
 
 .popup-overlay {
@@ -23,12 +35,12 @@
 }
 
 .popup-content.open {
-  @apply opacity-100;
+  @apply opacity-100 w-3/4;
 }
 
 .prev-button,
 .next-button {
-  @apply absolute top-1/2 -translate-y-1/2 bg-transparent border-none text-white text-[40px] cursor-pointer;
+  @apply absolute top-1/2 -translate-y-1/2 bg-transparent border-none text-white text-[40px];
 }
 
 .prev-button {

@@ -13,10 +13,15 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  cursor: url("assets/cursornormal.png"), auto;
+}
+
+#root {
+  @apply h-full;
 }
 
 * {
-  @apply m-0 p-0;
+  @apply m-0 p-0 box-border;
   /* outline: 1px solid green; */
 }
 
@@ -24,13 +29,29 @@
   @apply w-0;
 }
 
-html,
+button,
+a,
+[role="button"] {
+  cursor: url("assets/cursornormal.png"), pointer !important;
+}
+
+html {
+  @apply p-0;
+}
 body {
-  @apply h-full max-w-screen-xl;
+  @apply h-full max-w-screen-xl mt-[-40px];
+}
+
+main {
+  @apply relative;
 }
 
 a {
   @apply no-underline text-[white];
+}
+
+.headband {
+  @apply absolute top-0 left-0 w-full h-[200px] z-20;
 }
 
 section {
@@ -47,9 +68,7 @@ section {
 }
 
 h1 {
-  @apply w-3/5 font-normal text-[35px] tracking-[1px] mx-10 my-0 px-0 py-2.5 /* border-b-2 border-b-[white] border-solid */;
-  position: relative;
-  overflow: hidden;
+  @apply w-3/4 font-normal text-[26px] md:text-[35px] tracking-[1px] mx-3 md:mx-10 my-0 px-0 py-2.5 relative overflow-hidden;
 }
 h1::after {
   content: "";
@@ -63,27 +82,55 @@ h1::after {
 }
 
 h2 {
-  @apply font-extralight text-[33px];
+  @apply font-extralight text-[27px] md:text-[33px];
 }
 
 header li {
-  @apply text-white text-[23px] font-light my-2 border-b border-white py-2 tracking-[0.05rem];
+  @apply text-white text-[19px] md:text-[23px] font-light my-2 border-b border-white py-2 tracking-[0.05rem];
 }
 
 .card {
-  @apply pb-16;
+  @apply pb-[2rem] md:pb-16;
 }
 
 .content {
-  @apply px-0 py-[50px];
+  @apply px-0 pb-0 pt-[50PX] md:pb-[50px] md:pt-[50px];
 }
 .presentation {
-  @apply text-[33px] pt-[15px] pb-[30px] px-10;
+  @apply text-[33px] pt-[15px] pb-[30px] px-3 md:px-10;
 }
 
 .presentation h2 {
-  @apply font-normal text-right tracking-[1px];
+  @apply font-normal text-right tracking-[1px] text-[25px] md:text-[33px];
 }
 .presentation p {
-  @apply tracking-[1px] w-[73%] pt-[50px];
+  @apply tracking-[1px] w-full md:w-[73%] pt-[50px] text-[19px] md:text-[29px];
+}
+
+/* .container {
+  @apply w-full h-screen flex items-center justify-center;
+}
+ */
+.item-youtube {
+  @apply w-3/4 pb-2.5;
+}
+
+.trusted {
+  @apply flex flex-col items-center gap-5 w-full;
+}
+
+.trusted-row {
+  @apply flex gap-2 md:gap-5 items-center justify-around;
+}
+
+.trusted-row:first-child {
+  @apply w-full md:w-[70%];
+}
+
+.trusted-row:last-child {
+  @apply w-[90%];
+}
+
+.trusted-row img {
+  @apply w-[30%] h-[30%];
 }

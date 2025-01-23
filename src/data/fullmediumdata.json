@@ -8,18 +8,18 @@
     "media": [
       {
         "type": "image",
-        "filename": "blue.png",
-        "path": "/assets/photos/blue.png"
+        "filename": "Rayann1.webp",
+        "path": "/assets/fullmedium/1Rayann/IMG_2196.webp"
       },
       {
         "type": "image",
-        "filename": "blue.png",
-        "path": "/assets/photos/green.png"
+        "filename": "Rayann2.webp",
+        "path": "/assets/fullmedium/1Rayann/IMG_2205.webp"
       },
       {
         "type": "image",
-        "filename": "blue.png",
-        "path": "/assets/photos/blue.png"
+        "filename": "Rayann3.webp",
+        "path": "/assets/fullmedium/1Rayann/IMG_2209.webp"
       }
     ]
   },
@@ -32,18 +32,18 @@
     "media": [
       {
         "type": "image",
-        "filename": "red.png",
-        "path": "/assets/photos/green.png"
+        "filename": "Lany1.webp",
+        "path": "/assets/fullmedium/2Lany/IMG_9744.webp"
       },
       {
         "type": "image",
-        "filename": "red.png",
-        "path": "/assets/photos/blue.png"
+        "filename": "Lany2.webp",
+        "path": "/assets/fullmedium/2Lany/IMG_9742.webp"
       },
       {
         "type": "image",
-        "filename": "red.png",
-        "path": "/assets/photos/green.png"
+        "filename": "Lany3.webp",
+        "path": "/assets/fullmedium/2Lany/Photo05_5.webp"
       }
     ]
   },
@@ -56,18 +56,18 @@
     "media": [
       {
         "type": "image",
-        "filename": "red.png",
-        "path": "/assets/photos/red.png"
+        "filename": "ConexãoLany1.webp",
+        "path": "/assets/fullmedium/3ConexãoLany/20240530-IMG_7371.webp"
       },
       {
         "type": "image",
-        "filename": "red.png",
-        "path": "/assets/photos/purple.png"
+        "filename": "ConexãoLany2.webp",
+        "path": "/assets/fullmedium/3ConexãoLany/CONEXLANY__.webp"
       },
       {
         "type": "image",
-        "filename": "red.png",
-        "path": "/assets/photos/red.png"
+        "filename": "ConexãoLany3.webp",
+        "path": "/assets/fullmedium/3ConexãoLany/20240530-IMG_7414.webp"
       }
     ]
   },
@@ -80,18 +80,18 @@
     "media": [
       {
         "type": "image",
-        "filename": "red.png",
-        "path": "/assets/photos/red.png"
+        "filename": "ConexãoAlyssa1.png",
+        "path": "/assets/fullmedium/4ConexãoAlyssa/IMG_3305.webp"
       },
       {
         "type": "image",
-        "filename": "red.png",
-        "path": "/assets/photos/purple.png"
+        "filename": "ConexãoAlyssa2.png",
+        "path": "/assets/fullmedium/4ConexãoAlyssa/IMG_3308.webp"
       },
       {
         "type": "image",
-        "filename": "red.png",
-        "path": "/assets/photos/red.png"
+        "filename": "ConexãoAlyssa3.png",
+        "path": "/assets/fullmedium/4ConexãoAlyssa/IMG_3306.webp"
       }
     ]
   },
@@ -104,18 +104,18 @@
     "media": [
       {
         "type": "image",
-        "filename": "red.png",
-        "path": "/assets/photos/red.png"
+        "filename": "Tonoia1.webp",
+        "path": "/assets/fullmedium/5Tonoia/20241219-IMG_4046.webp"
       },
       {
         "type": "image",
-        "filename": "red.png",
-        "path": "/assets/photos/purple.png"
+        "filename": "Tonoia2.webp",
+        "path": "/assets/fullmedium/5Tonoia/20241219-IMG_4045.webp"
       },
       {
         "type": "image",
-        "filename": "red.png",
-        "path": "/assets/photos/red.png"
+        "filename": "Tonoia3.webp",
+        "path": "/assets/fullmedium/5Tonoia/20241219-IMG_4067.webp"
       }
     ]
   }

@@ -8,8 +8,8 @@
     "media": [
       {
         "type": "image",
-        "filename": "red.png",
-        "path": "/assets/photos/blue.png"
+        "filename": "LeatherParkFlyerPost.webp",
+        "path": "/assets/archives/LeatherParkFlyerPost-21.06.2024.webp"
       }
     ]
   },
@@ -21,9 +21,8 @@
     "row": false,
     "media": [
       {
-        "type": "image",
-        "filename": "red.png",
-        "path": "/assets/photos/purple.png"
+        "type": "youtube",
+        "url": "https://www.youtube.com/embed/ElORkfXYvXQ?si=kcF0_Q4q091gtlSP"
       }
     ]
   },
@@ -36,8 +35,8 @@
     "media": [
       {
         "type": "image",
-        "filename": "red.png",
-        "path": "/assets/photos/green.png"
+        "filename": "AffichePopup.webp",
+        "path": "/assets/archives/AffichePop-Up(PostIG).webp"
       }
     ]
   },
@@ -49,9 +48,8 @@
     "row": false,
     "media": [
       {
-        "type": "image",
-        "filename": "red.png",
-        "path": "/assets/photos/red.png"
+        "type": "youtube",
+        "url": "https://www.youtube.com/embed/AdXkE-mPctg?si=DpUE-30QecHQCn_Q"
       }
     ]
   },
@@ -64,8 +62,8 @@
     "media": [
       {
         "type": "image",
-        "filename": "red.png",
-        "path": "/assets/photos/red.png"
+        "filename": "CYK23.webp",
+        "path": "/assets/archives/CYK23.webp"
       }
     ]
   },
@@ -78,8 +76,8 @@
     "media": [
       {
         "type": "image",
-        "filename": "red.png",
-        "path": "/assets/photos/red.png"
+        "filename": "CYK22.webp",
+        "path": "/assets/archives/CYK22.webp"
       }
     ]
   }

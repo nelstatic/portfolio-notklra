@@ -26,12 +26,12 @@ const ScrollTop = () => {
 
   return (
     <div
-      className={`fixed bottom-[50px] right-[13px] text-white p-2.5 cursor-pointer text-[40px] transition-opacity duration-300 ease-in-out ${
+      className={`fixed z-[100] bottom-[50px] right-[13px] text-white p-2.5 text-[40px] transition-opacity duration-300 ease-in-out ${
         isVisible ? "opacity-100" : "opacity-0 pointer-events-none"
       }`}
       onClick={scrollToTop}
     >
-      <SlArrowUp size="3rem" />
+      <SlArrowUp size="2.5rem" />
     </div>
   );
 };

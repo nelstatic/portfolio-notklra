@@ -8,18 +8,18 @@
     "media": [
       {
         "type": "image",
-        "filename": "red.png",
-        "path": "/assets/photos/blue.png"
+        "filename": "RemplacMob1.webp",
+        "path": "/assets/exhibitions/RemplacMob/000029050006.webp"
       },
       {
         "type": "image",
-        "filename": "red.png",
-        "path": "/assets/photos/blue.png"
+        "filename": "RemplacMob2.webp",
+        "path": "/assets/exhibitions/RemplacMob/000029050009.webp"
       },
       {
         "type": "image",
-        "filename": "red.png",
-        "path": "/assets/photos/green.png"
+        "filename": "RemplacMob3.webp",
+        "path": "/assets/exhibitions/RemplacMob/000029050003.webp"
       }
     ]
   }

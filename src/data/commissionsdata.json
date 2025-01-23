@@ -2,24 +2,24 @@
   {
     "id": 1,
     "title": "Atelier Chardon Savard + Carhartt",
-    "description": "Analog, Medium Format, 6x4.5",
+    "description": "Analog, Full Frame, 24x36",
     "year": 2024,
     "row": false,
     "media": [
       {
         "type": "image",
-        "filename": "red.png",
-        "path": "/assets/photos/red.png"
+        "filename": "Cahartt1.webp",
+        "path": "/assets/commissions/1Carhartt/20241217-IMG_3591.png"
       },
       {
         "type": "image",
-        "filename": "red.png",
-        "path": "/assets/photos/purple.png"
+        "filename": "Cahartt2.webp",
+        "path": "/assets/commissions/1Carhartt/20241217-IMG_3593.png"
       },
       {
         "type": "image",
-        "filename": "red.png",
-        "path": "/assets/photos/red.png"
+        "filename": "Cahartt3.webp",
+        "path": "/assets/commissions/1Carhartt/20241217-IMG_3600.png"
       }
     ]
   },
@@ -32,18 +32,18 @@
     "media": [
       {
         "type": "image",
-        "filename": "red.png",
-        "path": "/assets/photos/red.png"
+        "filename": "NeverAloneAgain1.webp",
+        "path": "/assets/commissions/2NeverAloneAgain/IMGB.webp"
       },
       {
         "type": "image",
-        "filename": "red.png",
-        "path": "/assets/photos/purple.png"
+        "filename": "NeverAloneAgain2.webp",
+        "path": "/assets/commissions/2NeverAloneAgain/20240625-Photo03_3B.webp"
       },
       {
         "type": "image",
-        "filename": "red.png",
-        "path": "/assets/photos/red.png"
+        "filename": "NeverAloneAgain3.webp",
+        "path": "/assets/commissions/2NeverAloneAgain/Photo24_241B.webp"
       }
     ]
   },
@@ -56,18 +56,18 @@
     "media": [
       {
         "type": "image",
-        "filename": "red.png",
-        "path": "/assets/photos/red.png"
+        "filename": "3NigerianBoyfriendZiqin1.webp",
+        "path": "/assets/commissions/3NigerianBoyfriendZiqin/PIC_0036.png"
       },
       {
         "type": "image",
-        "filename": "red.png",
-        "path": "/assets/photos/purple.png"
+        "filename": "3NigerianBoyfriendZiqin2.webp",
+        "path": "/assets/commissions/3NigerianBoyfriendZiqin/PIC_0026.png"
       },
       {
         "type": "image",
-        "filename": "red.png",
-        "path": "/assets/photos/red.png"
+        "filename": "3NigerianBoyfriendZiqin3.png",
+        "path": "/assets/commissions/3NigerianBoyfriendZiqin/PIC_0051.png"
       }
     ]
   },
@@ -80,42 +80,41 @@
     "media": [
       {
         "type": "image",
-        "filename": "red.png",
-        "path": "/assets/photos/red.png"
+        "filename": "4NigerianBoyfriendNadia1.webp",
+        "path": "/assets/commissions/4NigerianBoyfriendNadia/IMG_2774.webp"
       },
       {
         "type": "image",
-        "filename": "red.png",
-        "path": "/assets/photos/purple.png"
+        "filename": "4NigerianBoyfriendNadia2.webp",
+        "path": "/assets/commissions/4NigerianBoyfriendNadia/IMG_2790.webp"
       },
       {
         "type": "image",
-        "filename": "red.png",
-        "path": "/assets/photos/red.png"
+        "filename": "4NigerianBoyfriendNadia3.webp",
+        "path": "/assets/commissions/4NigerianBoyfriendNadia/IMG_2772.webp"
       }
     ]
   },
   {
     "id": 5,
-    "title": "Nigerian Boyfriend, Nadia",
+    "title": "Nigerian Boyfriend, Sarah",
     "description": "Digital, Full Frame, 10x15",
     "year": 2024,
     "row": false,
     "media": [
       {
         "type": "image",
-        "filename": "red.png",
-        "path": "/assets/photos/red.png"
+        "filename": "5NigerianBoyfriendSarah1.webp",
+        "path": "/assets/commissions/5NigerianBoyfriendSarah/IMG_1070.webp"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/embed/z0K3l2FOgdg?si=o9QUKcGLMrsDYAGk"
       },
       {
         "type": "image",
-        "filename": "red.png",
-        "path": "/assets/photos/purple.png"
-      },
-      {
-        "type": "image",
-        "filename": "red.png",
-        "path": "/assets/photos/red.png"
+        "filename": "5NigerianBoyfriendSarah3.webp",
+        "path": "/assets/commissions/5NigerianBoyfriendSarah/IMG_1070.webp"
       }
     ]
   },
@@ -127,9 +126,8 @@
     "row": false,
     "media": [
       {
-        "type": "image",
-        "filename": "red.png",
-        "path": "/assets/photos/red.png"
+        "type": "youtube",
+        "url": "https://www.youtube.com/embed/HWmUx90IssY?si=ptyhv7rWJtYfqu9M"
       }
     ]
   },
@@ -141,9 +139,8 @@
     "row": false,
     "media": [
       {
-        "type": "image",
-        "filename": "red.png",
-        "path": "/assets/photos/red.png"
+        "type": "youtube",
+        "url": "https://www.youtube.com/embed/CMUyxPtzHFA?si=s35zZEYAio15vTWX"
       }
     ]
   }

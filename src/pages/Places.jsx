@@ -6,7 +6,15 @@ import CardGallery from "@components/card/CardGallery";
 const Places = () => {
   return (
     <section>
-      <h1>Places</h1>
+      <div className="headband">
+        <img
+          src="/assets/places/headband_places.webp"
+          alt="Headband"
+          className="w-full h-auto"
+        />
+      </div>
+
+      <h1 className="pt-[80px]">Places</h1>
       <div className="content">
         {Placesdatas.map((Placesdata, index) => (
           <article className="card" key={index}>
