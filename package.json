@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://nelstatic.github.io/portfolio-notklra",
+  "homepage": "https://notklra.vercel.app/",
   "scripts": {
     "start": "vite",
     "build": "vite build",
@@ -11,6 +11,9 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "format": "prettier --ignore-path .prettierignore ."
+  },
+  "engines": {
+    "node": ">=16.0.0"
   },
   "dependencies": {
     "autoprefixer": "^10.4.20",
