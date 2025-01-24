@@ -11,7 +11,7 @@ function Footer() {
         </a>
         <div className="flex items-center gap-[5px]">
           <a
-            href="https://www.tiktok.com/@notklra"
+            href="https://www.tiktok.com/@notklra333"
             className="text-black text-[26px] font-semibold"
           >
             <img

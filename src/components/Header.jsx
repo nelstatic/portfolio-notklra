@@ -1,17 +1,14 @@
 import { NavLink } from "react-router-dom";
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Hamburger from "hamburger-react";
+import { useNavbar } from "@components/NavbarContext";
 
 function Header() {
-  const [isOpen, setOpen] = useState(false);
-
-  const toggleNavbar = () => {
-    setOpen(!isOpen);
-  };
+  const { isNavbarOpen, toggleNavbar } = useNavbar(); // Récupère les valeurs du contexte
 
   const handleLinkClick = () => {
-    setOpen(false);
-    //Rediriger vers le haut de la page
+    toggleNavbar(); // Ferme la navbar
+    // Redirige vers le haut de la page
     setTimeout(() => {
       window.scrollTo({
         top: 0,
@@ -27,15 +24,15 @@ function Header() {
           <Hamburger
             size={29}
             distance="lg"
-            toggled={isOpen}
-            toggle={setOpen}
+            toggled={isNavbarOpen} // Utilise l'état global
+            toggle={toggleNavbar} // Appelle la fonction du contexte
           />
         </div>
 
         <div
           className={`fixed inset-0 bg-black bg-opacity-90 transition-all duration-500 ease-in-out flex justify-center items-center z-[1000] ${
-            isOpen ? "opacity-100 visible" : "opacity-0 invisible"
-          } `}
+            isNavbarOpen ? "opacity-100 visible" : "opacity-0 invisible"
+          }`}
           onClick={toggleNavbar}
         >
           <div

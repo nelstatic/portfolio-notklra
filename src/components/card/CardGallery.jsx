@@ -57,7 +57,7 @@ const CardGallery = ({ media, row, full }) => {
               />
             ) : item.type === "youtube" ? (
               <iframe
-                width="100%"
+                width="120%"
                 height="400"
                 src={media[currentIndex].url}
                 title={`YouTube video ${currentIndex}`}

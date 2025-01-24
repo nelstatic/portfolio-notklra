@@ -94,7 +94,7 @@ header li {
 }
 
 .content {
-  @apply px-0 pb-0 pt-[50PX] md:pb-[50px] md:pt-[50px];
+  @apply px-0 pb-0 pt-[50PX] md:pb-[50px] md:pt-[50px] flex flex-col gap-[35PX];
 }
 .presentation {
   @apply text-[33px] pt-[15px] pb-[30px] px-3 md:px-10;

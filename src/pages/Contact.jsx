@@ -2,13 +2,13 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <section>
+    <section className="h-screen pt-[100PX]">
       <h1>Contact</h1>
-      <article className="p-10">
-        <p className="font-semibold tracking-[1px] text-[33px]">
+      <article className="pt-[70PX] px-3 md:p-10">
+        <p className="font-semibold tracking-[1px] text-[18px] md:text-[33px]">
           Paris based.
           <br /> Any inquiries :
-          <a className="font-normal" href="mailto:xxx@outlook.com">
+          <a className=" font-normal" href="mailto:xxx@outlook.com">
             {" "}
             notklra@outlook.com
           </a>
