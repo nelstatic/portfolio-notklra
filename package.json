@@ -5,9 +5,9 @@
   "type": "module",
   "homepage": "https://notklra.vercel.app/",
   "scripts": {
-    "start": "vite",
-    "build": "vite build",
-    "dev": "vite preview",
+    "start": "vite start",
+    "build": "node_modules/.bin/vite build",
+    "dev": "vite dev",
     "lint": "eslint .",
     "preview": "vite preview",
     "format": "prettier --ignore-path .prettierignore ."
