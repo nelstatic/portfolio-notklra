@@ -134,3 +134,24 @@ header li {
 .trusted-row img {
   @apply w-[30%] h-[30%];
 }
+
+@keyframes myAnim {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+article img {
+  opacity: 0; /* Initial state */
+  transform: translateY(-10px); /* Initial transform */
+}
+
+article img.animate {
+  animation: myAnim 0.8s ease forwards; /* Trigger the animation */
+}

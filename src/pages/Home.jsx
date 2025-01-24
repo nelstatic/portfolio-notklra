@@ -1,5 +1,5 @@
 import React from "react";
-import { useNavbar } from "@components/NavbarContext";
+import { useNavbar } from "@hooks/NavbarContext";
 
 const Home = () => {
   const { toggleNavbar } = useNavbar();

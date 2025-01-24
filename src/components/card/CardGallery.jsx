@@ -1,11 +1,18 @@
 import React, { useState, useEffect } from "react";
 import { SlArrowLeft } from "react-icons/sl";
 import { SlArrowRight } from "react-icons/sl";
+import useIntersectionAnimation from "../../hooks/Animation";
 
 const CardGallery = ({ media, row, full }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isContentVisible, setIsContentVisible] = useState(false);
+
+  useIntersectionAnimation(
+    ".card-gallery-image", // Sélecteur des images
+    "animate", // Classe CSS à ajouter pour animer
+    { threshold: 0.1 } // Déclenche à 10% de visibilité
+  );
 
   const openPopup = (index) => {
     setCurrentIndex(index);

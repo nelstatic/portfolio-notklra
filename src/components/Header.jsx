@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import React from "react";
 import Hamburger from "hamburger-react";
-import { useNavbar } from "@components/NavbarContext";
+import { useNavbar } from "@hooks/NavbarContext";
 
 function Header() {
   const { isNavbarOpen, toggleNavbar } = useNavbar(); // Récupère les valeurs du contexte
