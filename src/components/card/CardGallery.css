@@ -14,10 +14,6 @@
   @apply w-full;
 }
 
-/* .card-gallery .card-gallery-image {
-  @apply pb-[10px] cursor-pointer;
-} */
-
 .card-gallery-image {
   @apply pb-[10PX] md:pb-[20PX];
 }
@@ -49,4 +45,26 @@
 
 .next-button {
   @apply right-[-10%] pl-3;
+}
+
+/* Animation pour les images avec la classe card-gallery-image */
+.card-gallery-image {
+  opacity: 0; /* Initial state */
+  transform: translateY(-10px); /* Initial transform */
+}
+
+.card-gallery-image.animate {
+  animation: myAnim 0.8s ease forwards; /* Lancer l'animation lorsqu'elles entrent dans le champ de vision */
+}
+
+/* @keyframes restent comme tu les as définis */
+@keyframes myAnim {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { SlArrowLeft } from "react-icons/sl";
 import { SlArrowRight } from "react-icons/sl";
-import useIntersectionAnimation from "../../hooks/Animation";
+import useIntersectionAnimation from "@hooks/Animation";
 
 const CardGallery = ({ media, row, full }) => {
   const [isOpen, setIsOpen] = useState(false);

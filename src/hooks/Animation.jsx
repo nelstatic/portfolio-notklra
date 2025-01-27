@@ -6,9 +6,10 @@ const useIntersectionAnimation = (selector, animationClass, options = {}) => {
 
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
+        // L'animation ne se déclenche que pour les images avec la classe `.card-gallery-image`
         if (entry.isIntersecting) {
-          entry.target.classList.add(animationClass);
-          observer.unobserve(entry.target); // Arrêter d'observer une fois l'animation jouée
+          entry.target.classList.add(animationClass); // Ajouter la classe d'animation
+          observer.unobserve(entry.target); // Arrêter d'observer après l'animation
         }
       });
     }, options);
