@@ -9,17 +9,17 @@
       {
         "type": "image",
         "filename": "RemplacMob1.webp",
-        "path": "/assets/exhibitions/RemplacMob/000029050006.webp"
+        "path": "https://res.cloudinary.com/dyjyzz1n5/image/upload/v1738025044/000029050006_gkfxte.webp"
       },
       {
         "type": "image",
         "filename": "RemplacMob2.webp",
-        "path": "/assets/exhibitions/RemplacMob/000029050009.webp"
+        "path": "https://res.cloudinary.com/dyjyzz1n5/image/upload/v1738025046/000029050009_tmwe0k.webp"
       },
       {
         "type": "image",
         "filename": "RemplacMob3.webp",
-        "path": "/assets/exhibitions/RemplacMob/000029050003.webp"
+        "path": "https://res.cloudinary.com/dyjyzz1n5/image/upload/v1738025042/000029050003_jqqjo5.webp"
       }
     ]
   }

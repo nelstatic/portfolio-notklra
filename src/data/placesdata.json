@@ -10,22 +10,22 @@
       {
         "type": "image",
         "filename": "1London1.png",
-        "path": "/assets/places/1London/thumbnail_IMG_0190.webp"
+        "path": "https://res.cloudinary.com/dyjyzz1n5/image/upload/v1738024532/thumbnail_IMG_0190_pezaxf.webp"
       },
       {
         "type": "image",
         "filename": "1London2.png",
-        "path": "/assets/places/1London/thumbnail_IMG_0186.webp"
+        "path": "https://res.cloudinary.com/dyjyzz1n5/image/upload/v1738024531/thumbnail_IMG_0186_a3rez0.webp"
       },
       {
         "type": "image",
         "filename": "1London3.png",
-        "path": "/assets/places/1London/thumbnail_IMG_0191.webp"
+        "path": "https://res.cloudinary.com/dyjyzz1n5/image/upload/v1738024534/thumbnail_IMG_0191_hplecg.webp"
       },
       {
         "type": "image",
         "filename": "1London4.png",
-        "path": "/assets/places/1London/thumbnail_IMG_0187.webp"
+        "path": "https://res.cloudinary.com/dyjyzz1n5/image/upload/v1738024531/thumbnail_IMG_0187_of1sju.webp"
       }
     ]
   },
@@ -39,22 +39,22 @@
       {
         "type": "image",
         "filename": "2RiodeJaneiro1.webp",
-        "path": "/assets/places/2RiodeJaneiro/IMG_3615.webp"
+        "path": "https://res.cloudinary.com/dyjyzz1n5/image/upload/v1738024557/IMG_3615_ki1kso.webp"
       },
       {
         "type": "image",
         "filename": "2RiodeJaneiro2.webp",
-        "path": "/assets/places/2RiodeJaneiro/thumbnail_IMG_3613.webp"
+        "path": "https://res.cloudinary.com/dyjyzz1n5/image/upload/v1738024559/thumbnail_IMG_3613_bo2uvj.webp"
       },
       {
         "type": "image",
         "filename": "2RiodeJaneiro3.webp",
-        "path": "/assets/places/2RiodeJaneiro/IMG_3586.webp"
+        "path": "https://res.cloudinary.com/dyjyzz1n5/image/upload/v1738024556/IMG_3586_kyblyp.webp"
       },
       {
         "type": "image",
         "filename": "2RiodeJaneiro4.webp",
-        "path": "/assets/places/2RiodeJaneiro/thumbnail_IMG_3577.webp"
+        "path": "https://res.cloudinary.com/dyjyzz1n5/image/upload/v1738024558/thumbnail_IMG_3577_vgacvh.webp"
       }
     ]
   },
@@ -68,22 +68,22 @@
       {
         "type": "image",
         "filename": "3Geneva1.webp",
-        "path": "/assets/places/3Geneva/thumbnail_IMG_1254.webp"
+        "path": "https://res.cloudinary.com/dyjyzz1n5/image/upload/v1738024583/thumbnail_IMG_1254_xpm7ja.webp"
       },
       {
         "type": "image",
         "filename": "3Geneva2.webp",
-        "path": "/assets/places/3Geneva/thumbnail_IMG_1259.webp"
+        "path": "https://res.cloudinary.com/dyjyzz1n5/image/upload/v1738024584/thumbnail_IMG_1259_zi4yu5.webp"
       },
       {
         "type": "image",
         "filename": "3Geneva3.webp",
-        "path": "/assets/places/3Geneva/thumbnail_IMG_1246.webp"
+        "path": "https://res.cloudinary.com/dyjyzz1n5/image/upload/v1738024582/thumbnail_IMG_1246_ly3hfi.webp"
       },
       {
         "type": "image",
         "filename": "3Geneva4.webp",
-        "path": "/assets/places/3Geneva/thumbnail_E6E8011A-FF09-4C3B-AB8A-2A0F364511C9.webp"
+        "path": "https://res.cloudinary.com/dyjyzz1n5/image/upload/v1738024581/thumbnail_E6E8011A-FF09-4C3B-AB8A-2A0F364511C9_b4oppy.webp"
       }
     ]
   },
@@ -97,22 +97,22 @@
       {
         "type": "image",
         "filename": "4Lisbon1.webp",
-        "path": "/assets/places/4Lisbon/IMG_6767.webp"
+        "path": "https://res.cloudinary.com/dyjyzz1n5/image/upload/v1738024602/IMG_6767_xnel1z.webp"
       },
       {
         "type": "image",
         "filename": "4Lisbon2.webp",
-        "path": "/assets/places/4Lisbon/IMG_6914.webp"
+        "path": "https://res.cloudinary.com/dyjyzz1n5/image/upload/v1738024604/IMG_6914_qwqhvu.webp"
       },
       {
         "type": "image",
         "filename": "4Lisbon3.webp",
-        "path": "/assets/places/4Lisbon/IMG_6917.webp"
+        "path": "https://res.cloudinary.com/dyjyzz1n5/image/upload/v1738024605/IMG_6917_ellzoj.webp"
       },
       {
         "type": "image",
         "filename": "4Lisbon4.webp",
-        "path": "/assets/places/4Lisbon/Photo08_82.webp"
+        "path": "https://res.cloudinary.com/dyjyzz1n5/image/upload/v1738024606/Photo08_82_d3icmc.webp"
       }
     ]
   }
