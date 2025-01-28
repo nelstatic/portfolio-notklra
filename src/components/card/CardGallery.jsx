@@ -2,11 +2,13 @@ import React, { useState, useEffect } from "react";
 import { SlArrowLeft } from "react-icons/sl";
 import { SlArrowRight } from "react-icons/sl";
 import useIntersectionAnimation from "@hooks/Animation";
+import IframeRender from "./IframeRender";
 
 const CardGallery = ({ media, row, full }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isContentVisible, setIsContentVisible] = useState(false);
+  const [resetKey, setResetKey] = useState(0);
 
   useIntersectionAnimation(
     ".card-gallery-image", // Sélecteur des images
@@ -18,6 +20,7 @@ const CardGallery = ({ media, row, full }) => {
     setCurrentIndex(index);
     setIsOpen(true);
     setTimeout(() => setIsContentVisible(true), 50);
+    setResetKey((prev) => prev + 1); // Met à jour la clé pour forcer le rendu
   };
 
   const closePopup = () => {
@@ -27,10 +30,12 @@ const CardGallery = ({ media, row, full }) => {
 
   const nextMedia = () => {
     setCurrentIndex((currentIndex + 1) % media.length);
+    setResetKey((prev) => prev + 1); // Met à jour la clé
   };
 
   const prevMedia = () => {
     setCurrentIndex((currentIndex - 1 + media.length) % media.length);
+    setResetKey((prev) => prev - 1); // Met à jour la clé
   };
 
   useEffect(() => {
@@ -43,17 +48,6 @@ const CardGallery = ({ media, row, full }) => {
       document.body.style.overflow = "unset";
     };
   }, [isOpen]);
-
-  useEffect(() => {
-    if (media[currentIndex].type === "youtube") {
-      const iframe = document.querySelector(
-        `iframe[title="YouTube video ${currentIndex}"]`
-      );
-      if (iframe) {
-        iframe.src = media[currentIndex].url; // Réassigne l'URL pour forcer le rendu
-      }
-    }
-  }, [currentIndex]);
 
   return (
     <div className={`${full ? "item-image-full" : "item-image"}`}>
@@ -74,16 +68,11 @@ const CardGallery = ({ media, row, full }) => {
                 className="card-gallery-image"
               />
             ) : item.type === "youtube" ? (
-              <iframe
-                width="120%"
-                className="h-[200px] md:h-[400px]"
-                src={media[currentIndex].url}
-                title={`YouTube video ${currentIndex}`}
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerPolicy="strict-origin-when-cross-origin"
-                allowFullScreen
-              ></iframe>
+              <IframeRender
+                url={item.url}
+                title={`YouTube video ${index}`}
+                resetKey={resetKey}
+              />
             ) : null}
           </div>
         ))}
@@ -106,17 +95,11 @@ const CardGallery = ({ media, row, full }) => {
                 className="my-0 mx-auto"
               />
             ) : media[currentIndex].type === "youtube" ? (
-              <iframe
-                width="560"
-                height="315"
-                src={media[currentIndex].url}
+              <IframeRender
+                url={media[currentIndex].url}
                 title={`YouTube video ${currentIndex}`}
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin"
-                allowFullScreen
-                className="my-0 mx-auto"
-              ></iframe>
+                resetKey={resetKey}
+              />
             ) : null}
             {/* Navigation Buttons */}
             {media.length > 1 && (
