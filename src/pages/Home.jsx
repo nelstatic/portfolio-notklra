@@ -15,7 +15,7 @@ const Home = () => {
       </div>
 
       <video
-        src="https://res.cloudinary.com/dyjyzz1n5/video/upload/v1738023549/videohome_rflyhe.mp4"
+        src="/assets/home/videohome.mp4"
         autoPlay
         muted
         loop
