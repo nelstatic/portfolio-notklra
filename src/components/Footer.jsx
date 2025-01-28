@@ -12,44 +12,44 @@ function Footer() {
         <div className="flex items-center gap-[5px]">
           <a
             href="https://www.tiktok.com/@notklra333"
+            target="_blank"
             className="text-black text-[26px] font-semibold"
           >
             <img
               className="w-[22px] md:w-[30px] object-cover py-[4px] "
-              /* src={`${basePath}assets/logos/tiktok.svg`} */
               src="assets/home/tiktok.webp"
               alt="logo tiktok"
             />
           </a>
           <a
             href="https://soundcloud.com/notklra"
+            target="_blank"
             className="text-black text-[26px] font-semibold"
           >
             <img
               className="w-[40px] object-cover"
-              /* src={`${basePath}assets/logos/soundcloud.svg`} */
               src="assets/home/SoundCloudLogo.webp"
               alt="logo soundcloud"
             />
           </a>
           <a
             href="https://twitter.com"
+            target="_blank"
             className="text-black text-[26px] font-semibold"
           >
             <img
               className="w-[30px] object-cover"
-              /* src={`${basePath}assets/logos/twitter.png`} */
               src="assets/home/twitter.webp"
               alt="logo twitter"
             />
           </a>
           <a
             href="https://www.instagram.com/notklra/"
+            target="_blank"
             className="text-black text-[26px] font-semibold"
           >
             <img
               className="w-[30px] object-cover"
-              /* src={`${basePath}assets/logos/instagram.png`} */
               src="assets/home/instagram.webp"
               alt="logo instagram"
             />
