@@ -44,6 +44,17 @@ const CardGallery = ({ media, row, full }) => {
     };
   }, [isOpen]);
 
+  useEffect(() => {
+    if (media[currentIndex].type === "youtube") {
+      const iframe = document.querySelector(
+        `iframe[title="YouTube video ${currentIndex}"]`
+      );
+      if (iframe) {
+        iframe.src = media[currentIndex].url; // Réassigne l'URL pour forcer le rendu
+      }
+    }
+  }, [currentIndex]);
+
   return (
     <div className={`${full ? "item-image-full" : "item-image"}`}>
       {/* Media Grid */}
@@ -65,7 +76,7 @@ const CardGallery = ({ media, row, full }) => {
             ) : item.type === "youtube" ? (
               <iframe
                 width="120%"
-                height="400"
+                className="h-[200px] md:h-[400px]"
                 src={media[currentIndex].url}
                 title={`YouTube video ${currentIndex}`}
                 frameBorder="0"
