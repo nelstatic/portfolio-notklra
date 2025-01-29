@@ -6,14 +6,6 @@ const Home = () => {
 
   return (
     <section className="relative h-[120vh] mb-0 z-50">
-      <div className="headband">
-        <img
-          src="/assets/home/headband_home.webp"
-          alt="Headband"
-          className="w-full h-auto"
-        />
-      </div>
-
       <video
         src="/assets/home/videohome.mp4"
         autoPlay
@@ -26,9 +18,11 @@ const Home = () => {
       <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50"></div>
 
       <div className="relative z-10">
-        <h1 className="pt-[100px]">Clara Thion Moreira</h1>
+        <h1 className="pt-[70px] ml-[28PX] text-[24px] md:text-[29px] md:pt-[80px]">
+          Clara Thion Moreira
+        </h1>
         <h2
-          className="text-white text-[70px] tracking-[1px] mx-auto my-0 font-normal text-center px-0 py-[100PX]"
+          className="text-white text-[55px] md:text-[70px] tracking-[1px] mx-auto my-0 font-normal text-center px-0 py-[100PX]"
           onClick={toggleNavbar}
         >
           Portfolio

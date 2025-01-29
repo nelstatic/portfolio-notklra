@@ -33,7 +33,7 @@ function Footer() {
             />
           </a>
           <a
-            href="https://twitter.com"
+            href="https://twitter.com/notklra333"
             target="_blank"
             className="text-black text-[26px] font-semibold"
           >

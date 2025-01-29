@@ -20,7 +20,7 @@ function Header() {
   return (
     <header className="header">
       <nav className="fixed top-0 right-0 w-0 bg-transparent flex justify-end pt-4 z-[1001]">
-        <div className="px-5 z-[1001] mt-[30px]">
+        <div className="px-5 z-[1001] mt-[10px]">
           <Hamburger
             size={29}
             distance="lg"

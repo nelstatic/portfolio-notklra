@@ -5,14 +5,6 @@ const Music = () => {
 
   return (
     <section className="music">
-      <div className="headband">
-        <img
-          src="/assets/music/headband_music.webp"
-          alt="Headband"
-          className="w-full h-auto"
-        />
-      </div>
-
       <h1 className="w-[51%] pt-[80px]">Music</h1>
       <article className="presentation">
         <h2 className="w-[55%]">alias KLRA</h2>

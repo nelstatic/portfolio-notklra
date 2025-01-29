@@ -6,14 +6,6 @@ import CardGallery from "@components/card/CardGallery";
 const Commissions = () => {
   return (
     <section>
-      <div className="headband">
-        <img
-          src="/assets/commissions/headband_commissions.webp"
-          alt="Headband"
-          className="w-full h-auto"
-        />
-      </div>
-
       <h1 className="pt-[80px]">Commissions</h1>
       <div className="content">
         {Commissionsdatas.map((Commissionsdata, index) => (

@@ -2,17 +2,10 @@ import React from "react";
 import Exhibitionsdatas from "@/data/exhibitionsdata.json";
 import CardInfo from "@components/card/CardInfo";
 import CardGallery from "@components/card/CardGallery";
+
 const Exhibitions = () => {
   return (
     <section>
-      <div className="headband">
-        <img
-          src="/assets/exhibitions/headband_exhibitions.webp"
-          alt="Headband"
-          className="w-full h-auto"
-        />
-      </div>
-
       <h1 className="pt-[80px]">Exhibitions</h1>
       <article className="presentation">
         <h2 className="w-[80%]">Clara Thion Moreira</h2>
