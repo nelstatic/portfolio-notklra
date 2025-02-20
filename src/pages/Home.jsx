@@ -23,7 +23,7 @@ const Home = () => {
         </h1>
         <div className=" mx-auto my-0  text-center px-0 py-[100PX]">
           <h2
-            className="text-white text-[55px] md:text-[70px] tracking-[1px] font-normal"
+            className="text-white text-[55px] md:text-[70px] tracking-[1px] font-normal cursor-pointer"
             onClick={toggleNavbar}
           >
             Portfolio

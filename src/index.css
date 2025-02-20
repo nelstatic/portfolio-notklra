@@ -13,7 +13,7 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  cursor: url("assets/cursornormal.png"), auto;
+  /* cursor: url("assets/cursornormal.png"), auto; */
 }
 
 #root {
@@ -32,7 +32,7 @@
 button,
 a,
 [role="button"] {
-  cursor: url("assets/cursornormal.png"), pointer !important;
+  cursor: pointer !important;
 }
 
 html {
@@ -129,4 +129,8 @@ header li {
 
 .trusted-row img {
   @apply w-[30%] h-[30%];
+}
+
+img {
+  cursor: pointer;
 }
