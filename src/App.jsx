@@ -1,25 +1,35 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 
-//components
-import Header from "@components/Header.jsx";
-import Footer from "@components/Footer.jsx";
+// Components
+import Header from "@components/Header";
+import Footer from "@components/Footer";
 import ScrollTop from "@components/ScrollTop";
 
-// pages
-import Home from "@pages/Home.jsx";
-import FullMedium from "@pages/FullMedium.jsx";
-import Places from "@pages/Places.jsx";
-import Commissions from "@pages/Commissions.jsx";
-import Exhibitions from "@pages/Exhibitions.jsx";
-import Music from "@pages/Music.jsx";
-import Archives from "@pages/Archives.jsx";
-import Contact from "@pages/Contact.jsx";
-import ErrorPage from "@pages/ErrorPage.jsx";
+// Pages
+import Home from "@pages/Home";
+import FullMedium from "@pages/FullMedium";
+import Places from "@pages/Places";
+import Commissions from "@pages/Commissions";
+import Exhibitions from "@pages/Exhibitions";
+import Music from "@pages/Music";
+import Archives from "@pages/Archives";
+import Contact from "@pages/Contact";
+import ErrorPage from "@pages/ErrorPage";
 
 function App() {
   return (
-    <BrowserRouter /* basename={import.meta.env.production.VITE_APP_BASE_PATH} */
-    >
+    <BrowserRouter>
+      <Main />
+    </BrowserRouter>
+  );
+}
+
+function Main() {
+  const location = useLocation(); // L'utilisation de useLocation() dans un composant enfant de BrowserRouter
+  const isHome = location.pathname === "/"; // Vérifie si on est sur la page d'accueil
+
+  return (
+    <>
       <Header />
       <main>
         <Routes>
@@ -35,8 +45,8 @@ function App() {
         </Routes>
       </main>
       <ScrollTop />
-      <Footer />
-    </BrowserRouter>
+      {!isHome && <Footer />}
+    </>
   );
 }
 

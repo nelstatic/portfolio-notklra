@@ -56,7 +56,7 @@ function Footer() {
           </a>
         </div>
       </div>
-      <p className="text-[16px] md:text-[22px] font-light">
+      <p className="text-[14px] md:text-[17px] font-light">
         Copyright © 2024 All rights reserved. Clara Thion Moreira
       </p>
     </footer>

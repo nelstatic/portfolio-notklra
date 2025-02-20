@@ -7,7 +7,7 @@ const Music = () => {
     <section className="music">
       <h1 className="w-[51%] pt-[80px]">Music</h1>
       <article className="presentation">
-        <h2 className="w-[55%]">alias KLRA</h2>
+        <h2 className="w-[54%]">alias KLRA</h2>
         <p className="w-[80%]">
           Cape Verdean DJ, born & raised in North-East Paris, KLRA captivates
           audiences with her unique sound and energetic performances.
