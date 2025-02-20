@@ -15,9 +15,9 @@ const Exhibitions = () => {
           <br />
           <br /> Through her vision, Clara unveils a new perception of women in
           her imagery.
-          <br /> This is particularly evident in her photo series Conexão, where
-          one feels the suffocating heaviness of absence when our other half is
-          no longer there.
+          <br /> This is particularly evident in her photo series Connexão,
+          where one feels the suffocating heaviness of absence when our other
+          half is no longer there.
         </p>
       </article>
       <div className="content">

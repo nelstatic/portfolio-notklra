@@ -50,10 +50,6 @@ a {
   @apply no-underline text-[white];
 }
 
-.headband {
-  @apply absolute top-0 left-0 w-full h-[200px] z-20;
-}
-
 section {
   @apply mx-0 my-10 pt-10;
 }

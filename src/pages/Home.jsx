@@ -21,12 +21,14 @@ const Home = () => {
         <h1 className="pt-[70px] ml-[28PX] text-[24px] md:text-[29px] md:pt-[80px]">
           Clara Thion Moreira
         </h1>
-        <h2
-          className="text-white text-[55px] md:text-[70px] tracking-[1px] mx-auto my-0 font-normal text-center px-0 py-[100PX]"
-          onClick={toggleNavbar}
-        >
-          Portfolio
-        </h2>
+        <div className=" mx-auto my-0  text-center px-0 py-[100PX]">
+          <h2
+            className="text-white text-[55px] md:text-[70px] tracking-[1px] font-normal"
+            onClick={toggleNavbar}
+          >
+            Portfolio
+          </h2>
+        </div>
       </div>
     </section>
   );
