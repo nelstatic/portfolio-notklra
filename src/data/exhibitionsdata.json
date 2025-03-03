@@ -22,5 +22,29 @@
         "path": "https://res.cloudinary.com/dyjyzz1n5/image/upload/v1738025042/000029050003_jqqjo5.webp"
       }
     ]
+  },
+  {
+    "id": 2,
+    "title": "Rosa Rosa Media, Pop-Up Solidaire",
+    "description": "Espaces Guiffi, Paris FR",
+    "year": 2025,
+    "row": true,
+    "media": [
+      {
+        "type": "image",
+        "filename": "ExpoRosa1.jpg",
+        "path": "https://res.cloudinary.com/dyjyzz1n5/image/upload/v1741003688/1_byq9gm.jpg"
+      },
+      {
+        "type": "image",
+        "filename": "ExpoRosa2.jpg",
+        "path": "https://res.cloudinary.com/dyjyzz1n5/image/upload/v1741003688/2_clikem.jpg"
+      },
+      {
+        "type": "image",
+        "filename": "ExpoRosa3.jpg",
+        "path": "https://res.cloudinary.com/dyjyzz1n5/image/upload/v1741003688/3_ycrv3v.jpg"
+      }
+    ]
   }
 ]

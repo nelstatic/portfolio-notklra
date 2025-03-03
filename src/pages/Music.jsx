@@ -1,11 +1,31 @@
-import React from "react";
+import React, { useRef, useEffect } from "react";
 
 const Music = () => {
-  /* const basePath = import.meta.env.VITE_APP_BASE_PATH || "/portfolio-notklra/"; */
+  const scrollRef = useRef(null);
+
+  useEffect(() => {
+    const handleWheelScroll = (e) => {
+      if (scrollRef.current) {
+        e.preventDefault(); // Bloque le scroll vertical
+        scrollRef.current.scrollLeft += e.deltaY; // Fait défiler horizontalement
+      }
+    };
+
+    const scrollContainer = scrollRef.current;
+    if (scrollContainer) {
+      scrollContainer.addEventListener("wheel", handleWheelScroll);
+    }
+
+    return () => {
+      if (scrollContainer) {
+        scrollContainer.removeEventListener("wheel", handleWheelScroll);
+      }
+    };
+  }, []);
 
   return (
     <section className="music">
-      <h1 className="w-[51%] pt-[80px]">Music</h1>
+      <h1 className="w-[51%] pt-[80px] font-custom">Music</h1>
       <article className="presentation">
         <h2 className="w-[54%]">alias KLRA</h2>
         <p className="w-[80%]">
@@ -22,11 +42,41 @@ const Music = () => {
       </article>
 
       <article className="flex flex-col gap-[20PX] items-center pb-[80PX]">
-        <img
-          src="assets/music/CYK22SOLOHEAD1.webp"
-          className="w-[150px] md:w-[290px]"
-          alt="logo klra"
-        />
+        <div
+          ref={scrollRef}
+          className="flex overflow-x-auto space-x-4 scrollbar-hide"
+        >
+          <img
+            src="https://res.cloudinary.com/dyjyzz1n5/image/upload/v1741007410/CYK_-_1_odjbfw.png"
+            className="w-[150px] md:w-[290px] flex-shrink-0"
+            alt="logo klra 1"
+          />
+          <img
+            src="https://res.cloudinary.com/dyjyzz1n5/image/upload/v1741007409/CYK_-_2_in727k.png"
+            className="w-[150px] md:w-[290px] flex-shrink-0"
+            alt="logo klra 2"
+          />
+          <img
+            src="https://res.cloudinary.com/dyjyzz1n5/image/upload/v1741007408/CYK_-_3_hg6e6q.png"
+            className="w-[150px] md:w-[290px] flex-shrink-0"
+            alt="logo klra 3"
+          />
+          <img
+            src="https://res.cloudinary.com/dyjyzz1n5/image/upload/v1741007407/CYK_-_4_um34ao.png"
+            className="w-[150px] md:w-[290px] flex-shrink-0"
+            alt="logo klra 4"
+          />
+          <img
+            src="https://res.cloudinary.com/dyjyzz1n5/image/upload/v1741007407/CYK_-_5_pabpue.png"
+            className="w-[150px] md:w-[290px] flex-shrink-0"
+            alt="logo klra 5"
+          />
+          <img
+            src="https://res.cloudinary.com/dyjyzz1n5/image/upload/v1741007406/CYK_-_6_jr6lgv.png"
+            className="w-[150px] md:w-[290px] flex-shrink-0"
+            alt="logo klra 6"
+          />
+        </div>
         <iframe
           width="95%"
           height="170"

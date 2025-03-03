@@ -6,7 +6,7 @@ import CardGallery from "@components/card/CardGallery";
 const Places = () => {
   return (
     <section>
-      <h1 className="pt-[80px]">Places</h1>
+      <h1 className="pt-[80px] font-custom">Places</h1>
       <div className="content">
         {Placesdatas.map((Placesdata, index) => (
           <article className="card" key={index}>

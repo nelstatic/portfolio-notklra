@@ -1,7 +1,7 @@
 function Footer() {
   return (
-    <footer className="bg-[#d9d9d9] pt-[10px] md:pt-[25px] px-[9px] md:px-[25px] pb-[20px] md:pb-[55px] text-black absolute w-full z-0">
-      <div className="flex justify-between items-center py-[20px] md:py-[40px] pr-0 md:pr-[20px]">
+    <footer className="bg-[#d9d9d9] pt-[10px] md:pt-[0px] px-[9px] md:px-[25px] pb-[15px] md:pb-[25px] text-black absolute w-full z-0">
+      <div className="flex justify-between items-center py-[8px] md:py-[25px] pr-0 md:pr-[20px]">
         <a
           className="font-semibold text-black md:text-[22px] sm:text-[16px]"
           href="mailto:xxx@outlook.com"
@@ -16,7 +16,7 @@ function Footer() {
             className="text-black text-[26px] font-semibold"
           >
             <img
-              className="w-[22px] md:w-[30px] object-cover py-[4px] "
+              className="w-[18px] md:w-[20px] object-cover py-[4px] "
               src="assets/home/tiktok.webp"
               alt="logo tiktok"
             />
@@ -38,7 +38,7 @@ function Footer() {
             className="text-black text-[26px] font-semibold"
           >
             <img
-              className="w-[30px] object-cover"
+              className="w-[25px] object-cover"
               src="assets/home/twitter.webp"
               alt="logo twitter"
             />
@@ -49,7 +49,7 @@ function Footer() {
             className="text-black text-[26px] font-semibold"
           >
             <img
-              className="w-[30px] object-cover"
+              className="w-[25px] object-cover"
               src="assets/home/instagram.webp"
               alt="logo instagram"
             />

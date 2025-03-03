@@ -6,7 +6,7 @@ import CardGallery from "@components/card/CardGallery";
 const Exhibitions = () => {
   return (
     <section>
-      <h1 className="pt-[80px]">Exhibitions</h1>
+      <h1 className="pt-[80px] font-custom">Exhibitions</h1>
       <article className="presentation">
         <h2 className="w-[79%]">Clara Thion Moreira</h2>
         <p>

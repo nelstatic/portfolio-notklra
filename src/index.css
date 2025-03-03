@@ -1,6 +1,13 @@
 @import url("@components/card/CardGallery.css");
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
+@font-face {
+  font-family: "fStop";
+  src: url("/fonts/FSTOP.TTF") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -133,4 +140,8 @@ header li {
 
 img {
   cursor: pointer;
+}
+
+.horizontal-scroll {
+  display: flex;
 }

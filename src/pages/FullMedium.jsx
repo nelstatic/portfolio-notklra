@@ -6,7 +6,7 @@ import CardGallery from "@components/card/CardGallery";
 const FullMedium = () => {
   return (
     <section>
-      <h1 className="pt-[80px]">Full Frame & Medium Format</h1>
+      <h1 className="pt-[80px] font-custom">Full Frame & Medium Format</h1>
       <div className="content">
         {Fullmediumdatas.map((Fullmediumdata, index) => (
           <article className="card" key={index}>
