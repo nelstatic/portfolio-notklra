@@ -163,3 +163,31 @@ img {
   animation: expandBorder 1.5s ease-in-out forwards; /* Animation au chargement */
   animation-delay: 1s;
 }
+
+@keyframes scrollLoop {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.scroll-container {
+  overflow: hidden;
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+
+.scroll-content {
+  display: flex;
+  gap: 20px;
+  animation: scrollLoop 15s linear infinite;
+  width: 200%; /* Assure que l'animation a toujours assez d'éléments */
+}
+
+/* Empêche le shrink des images */
+.scroll-content img {
+  flex-shrink: 0;
+}

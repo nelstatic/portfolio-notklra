@@ -1,21 +1,14 @@
 import React, { useRef, useEffect } from "react";
 
 const Music = () => {
-  const scrollRef = useRef(null);
-
-  useEffect(() => {
-    const scrollContainer = scrollRef.current;
-
-    const startScrolling = () => {
-      if (scrollContainer) {
-        scrollContainer.scrollLeft += 1; // Augmente le décalage horizontal
-      }
-    };
-
-    const scrollInterval = setInterval(startScrolling, 20); // Répète l'action toutes les 20ms
-
-    return () => clearInterval(scrollInterval); // Nettoie l'intervalle au démontage
-  }, []);
+  const icones = [
+    "https://res.cloudinary.com/dyjyzz1n5/image/upload/v1741007410/CYK_-_1_odjbfw.png",
+    "https://res.cloudinary.com/dyjyzz1n5/image/upload/v1741007409/CYK_-_2_in727k.png",
+    "https://res.cloudinary.com/dyjyzz1n5/image/upload/v1741007408/CYK_-_3_hg6e6q.png",
+    "https://res.cloudinary.com/dyjyzz1n5/image/upload/v1741007407/CYK_-_4_um34ao.png",
+    "https://res.cloudinary.com/dyjyzz1n5/image/upload/v1741007407/CYK_-_5_pabpue.png",
+    "https://res.cloudinary.com/dyjyzz1n5/image/upload/v1741007406/CYK_-_6_jr6lgv.png",
+  ];
 
   return (
     <section className="music">
@@ -36,25 +29,18 @@ const Music = () => {
       </article>
 
       <article className="flex flex-col gap-[20PX] items-center pb-[80PX]">
-        <div
-          ref={scrollRef}
-          className="flex overflow-x-auto space-x-4 scrollbar-hide"
-        >
-          {[
-            "https://res.cloudinary.com/dyjyzz1n5/image/upload/v1741007410/CYK_-_1_odjbfw.png",
-            "https://res.cloudinary.com/dyjyzz1n5/image/upload/v1741007409/CYK_-_2_in727k.png",
-            "https://res.cloudinary.com/dyjyzz1n5/image/upload/v1741007408/CYK_-_3_hg6e6q.png",
-            "https://res.cloudinary.com/dyjyzz1n5/image/upload/v1741007407/CYK_-_4_um34ao.png",
-            "https://res.cloudinary.com/dyjyzz1n5/image/upload/v1741007407/CYK_-_5_pabpue.png",
-            "https://res.cloudinary.com/dyjyzz1n5/image/upload/v1741007406/CYK_-_6_jr6lgv.png",
-          ].map((src, index) => (
-            <img
-              key={index}
-              src={src}
-              className="w-[150px] md:w-[290px] flex-shrink-0"
-              alt={`logo klra ${index + 1}`}
-            />
-          ))}
+        <div className="scroll-container">
+          <div className="scroll-content">
+            {/* Duplication x2 pour créer un défilement continu */}
+            {[...icones, ...icones].map((src, index) => (
+              <img
+                key={index}
+                src={src}
+                className="w-[150px] md:w-[290px]"
+                alt={`logo ${index}`}
+              />
+            ))}
+          </div>
         </div>
         <iframe
           width="95%"
