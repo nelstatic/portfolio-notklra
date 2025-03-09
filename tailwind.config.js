@@ -2,11 +2,11 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}", "./src/index.css"],
   theme: {
-    extend: {
+    /* extend: {
       fontFamily: {
         custom: ["fStop", "sans-serif"], // Ajout de la police personnalisée
       },
-    },
+    }, */
     screens: {
       sm: "640px",
       md: "768px",

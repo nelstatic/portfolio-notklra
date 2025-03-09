@@ -145,3 +145,21 @@ img {
 .horizontal-scroll {
   display: flex;
 }
+
+.quick-bio {
+  @apply w-[55%] md:w-[35%] pb-[15px] md:pt-[30px] md:pb-[15px] pl-[10px] md:pl-[30px] relative;
+}
+.quick-bio h3 {
+  @apply text-[17px] md:text-[17px] font-normal tracking-wider pb-[0];
+}
+.quick-bio h3::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 1.5px;
+  background-color: white;
+  width: 0; /* Largeur initiale de la bordure */
+  animation: expandBorder 1.5s ease-in-out forwards; /* Animation au chargement */
+  animation-delay: 1s;
+}

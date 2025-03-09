@@ -4,23 +4,17 @@ const Music = () => {
   const scrollRef = useRef(null);
 
   useEffect(() => {
-    const handleWheelScroll = (e) => {
-      if (scrollRef.current) {
-        e.preventDefault(); // Bloque le scroll vertical
-        scrollRef.current.scrollLeft += e.deltaY; // Fait défiler horizontalement
-      }
-    };
-
     const scrollContainer = scrollRef.current;
-    if (scrollContainer) {
-      scrollContainer.addEventListener("wheel", handleWheelScroll);
-    }
 
-    return () => {
+    const startScrolling = () => {
       if (scrollContainer) {
-        scrollContainer.removeEventListener("wheel", handleWheelScroll);
+        scrollContainer.scrollLeft += 1; // Augmente le décalage horizontal
       }
     };
+
+    const scrollInterval = setInterval(startScrolling, 20); // Répète l'action toutes les 20ms
+
+    return () => clearInterval(scrollInterval); // Nettoie l'intervalle au démontage
   }, []);
 
   return (
@@ -46,36 +40,21 @@ const Music = () => {
           ref={scrollRef}
           className="flex overflow-x-auto space-x-4 scrollbar-hide"
         >
-          <img
-            src="https://res.cloudinary.com/dyjyzz1n5/image/upload/v1741007410/CYK_-_1_odjbfw.png"
-            className="w-[150px] md:w-[290px] flex-shrink-0"
-            alt="logo klra 1"
-          />
-          <img
-            src="https://res.cloudinary.com/dyjyzz1n5/image/upload/v1741007409/CYK_-_2_in727k.png"
-            className="w-[150px] md:w-[290px] flex-shrink-0"
-            alt="logo klra 2"
-          />
-          <img
-            src="https://res.cloudinary.com/dyjyzz1n5/image/upload/v1741007408/CYK_-_3_hg6e6q.png"
-            className="w-[150px] md:w-[290px] flex-shrink-0"
-            alt="logo klra 3"
-          />
-          <img
-            src="https://res.cloudinary.com/dyjyzz1n5/image/upload/v1741007407/CYK_-_4_um34ao.png"
-            className="w-[150px] md:w-[290px] flex-shrink-0"
-            alt="logo klra 4"
-          />
-          <img
-            src="https://res.cloudinary.com/dyjyzz1n5/image/upload/v1741007407/CYK_-_5_pabpue.png"
-            className="w-[150px] md:w-[290px] flex-shrink-0"
-            alt="logo klra 5"
-          />
-          <img
-            src="https://res.cloudinary.com/dyjyzz1n5/image/upload/v1741007406/CYK_-_6_jr6lgv.png"
-            className="w-[150px] md:w-[290px] flex-shrink-0"
-            alt="logo klra 6"
-          />
+          {[
+            "https://res.cloudinary.com/dyjyzz1n5/image/upload/v1741007410/CYK_-_1_odjbfw.png",
+            "https://res.cloudinary.com/dyjyzz1n5/image/upload/v1741007409/CYK_-_2_in727k.png",
+            "https://res.cloudinary.com/dyjyzz1n5/image/upload/v1741007408/CYK_-_3_hg6e6q.png",
+            "https://res.cloudinary.com/dyjyzz1n5/image/upload/v1741007407/CYK_-_4_um34ao.png",
+            "https://res.cloudinary.com/dyjyzz1n5/image/upload/v1741007407/CYK_-_5_pabpue.png",
+            "https://res.cloudinary.com/dyjyzz1n5/image/upload/v1741007406/CYK_-_6_jr6lgv.png",
+          ].map((src, index) => (
+            <img
+              key={index}
+              src={src}
+              className="w-[150px] md:w-[290px] flex-shrink-0"
+              alt={`logo klra ${index + 1}`}
+            />
+          ))}
         </div>
         <iframe
           width="95%"

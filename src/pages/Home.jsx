@@ -21,13 +21,17 @@ const Home = () => {
         <h1 className="pt-[50px] ml-[28PX] text-[24px] md:text-[29px] md:pt-[50px]">
           Clara Thion Moreira
         </h1>
-        <div className=" mx-auto my-0  text-center px-0 py-[100PX]">
+        <div className=" mx-auto my-0 h-[60vh] md:h-[45vh] text-center px-0 pt-[100PX] pB-[400PX]">
           <h2
             className="font-custom text-white text-[55px] md:text-[70px] tracking-[1px] font-normal cursor-pointer"
             onClick={toggleNavbar}
           >
             Portfolio
           </h2>
+        </div>
+
+        <div className="quick-bio">
+          <h3>Artistic Direction + Photography + Music</h3>
         </div>
       </div>
     </section>

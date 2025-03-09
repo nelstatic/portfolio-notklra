@@ -5,7 +5,7 @@ import path from "path";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  // Utilisez la variable d'environnement VITE_APP_BASE_PATH ou la valeur par défaut "/"
+  // Utilise la variable d'environnement VITE_APP_BASE_PATH ou la valeur par défaut "/"
   /* base: process.env.VITE_APP_BASE_PATH || "/portfolio-notklra/", */ // Changez ici pour utiliser une variable d'environnement si besoin
   resolve: {
     alias: [
